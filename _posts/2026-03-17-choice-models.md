@@ -65,7 +65,7 @@ The same idea shows up in how language models are trained on human preference da
 Here's the problem in code. We start with a 50/50 split between car and red bus, add an identical blue bus, and compare what MNL (softmax) predicts vs. a Nested Logit model that knows the buses are similar:
 
 ```python
-{% include_relative ../code_snippets/choice_model/choice_model.py %}
+{% include code_snippets/choice_model/choice_model.py %}
 ```
 
 ---

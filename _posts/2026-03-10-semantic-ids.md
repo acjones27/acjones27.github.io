@@ -42,7 +42,7 @@ From what I can tell, if you're not building a generative recommendation system 
 Here's a minimal example using `sentence-transformers` for the embeddings and `faiss` for the quantisation:
 
 ```python
-{% include_relative ../code_snippets/semantic_ids/semantic_ids.py %}
+{% include code_snippets/semantic_ids/semantic_ids.py %}
 ```
 
 You should see the transformer papers share a first-level code, and the recommender papers share a different one — that's the hierarchical structure working as intended. With only 5 items and a codebook of size 8 this is a toy example; in practice you'd want far more items than codebook entries, and you'd need to watch for collisions.
