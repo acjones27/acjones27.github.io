@@ -1,18 +1,22 @@
 # Anna Jones Blog
 
-- Code examples are in code_snippets/
-- Blogs are in _posts
+**[acjones27.github.io](https://acjones27.github.io)**
 
-## About Chirpy theme
+Personal blog about ML engineering, recommender systems, experimentation, and infrastructure. Built with [Jekyll](https://jekyllrb.com/) using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme.
 
-Created from this starter: https://github.com/cotes2020/chirpy-starter
+## Repo structure
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+```
+_posts/                     # Blog posts (Markdown)
+_includes/code_snippets/    # Runnable code examples included in posts
+assets/images/              # Diagrams and figures
+```
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+## Running locally
 
-### Usage
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
+Then visit `http://localhost:4000`.
